@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace NuGetPlayground
 {
-    public class Class1
+    public class AppLogger
     {
+        public void Log(string message)
+        {
+            Console.WriteLine(message);
+        }
     }
 }
